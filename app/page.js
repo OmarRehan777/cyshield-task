@@ -1,14 +1,17 @@
+import MainLayout from "../components/MainLayout";
+
 export default function Home() {
 	return (
-		<main className="min-h-screen flex items-center justify-center bg-gray-50">
-			<div className="p-8 bg-white rounded-lg shadow-md">
-				<h1 className="text-2xl font-bold mb-2">
-					Tailwind is working 🎉
+		<MainLayout>
+			{/* 4. Placeholder for the main sections (e.g., HeroSection, Listings, Testimonials) 
+          We will replace this with the actual sections later. */}
+			<section className="p-4 text-center text-grey-DEFAULT">
+				{/* We can remove this placeholder once we start building sections */}
+				<h1 className="text-xl font-bold">
+					AyEstate Home Page Content Placeholder
 				</h1>
-				<p className="text-gray-600">
-					Next.js 13.5.6 + Tailwind 3.4.7 setup clean.
-				</p>
-			</div>
-		</main>
+				<p>Start building sections here...</p>
+			</section>
+		</MainLayout>
 	);
 }
