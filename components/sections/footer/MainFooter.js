@@ -43,7 +43,7 @@ export default function MainFooter() {
 				{/* 1. Main Content Grid */}
 				{/* Grid-cols-2 في الموبايل عشان يدينا 2x2 */}
 				{/* Grid-cols-5 في الديسكتوب عشان يدينا 1+4 أعمدة */}
-				<div className="grid grid-cols-2 md:grid-cols-5 gap-y-10 md:gap-8 border-b border-light-grey-DEFAULT/20 pb-12 mb-8">
+				<div className="grid grid-cols-2 md:grid-cols-5 gap-y-10 md:gap-8 border-light-grey-DEFAULT/20 pb-12 mb-8">
 					{/* A. العمود الأول: Logo and Contact Info */}
 					{/* في الموبايل لازم ياخد عرض العمودين (col-span-2) عشان يظهر فوق الكل لوحده. */}
 					{/* في الديسكتوب بياخد عمود واحد بس (md:col-span-1). */}

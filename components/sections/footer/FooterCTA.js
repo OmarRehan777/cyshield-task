@@ -4,8 +4,8 @@ export default function FooterCTA() {
 	return (
 		<section className="bg-[#040316] py-20 text-white">
 			<div className="container mx-auto px-4 max-w-4xl text-center">
-				<h2 className="text-4xl md:text-5xl font-extrabold leading-snug mb-4">
-					LET'S START A SUCCESSFUL PROJECT
+				<h2 className="text-4xl md:text-5xl font-bold leading-6 mb-4 font-sans ">
+					Let's start a <br></br> <span className="uppercase">SUCCESSFUL PROJECT</span>
 				</h2>
 				<p className="text-lg text-white/80 mb-8 max-w-lg mx-auto">
 					We deliver immediate business impact and long-term ROI for

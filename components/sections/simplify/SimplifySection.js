@@ -25,9 +25,9 @@ export default function DiscoverSection() {
 
 	return (
 		// Section Container
-		<section className="container mx-auto px-4 py-16 max-w-7xl">
+		<section className="container mx-auto px-4 py-16 max-w-7xl flex flex-col items-center">
 			{/* Header: Title and Description (Centered) */}
-			<div className="text-center mb-12">
+			<div className="text-center mb-12 lg:w-1/2 w-4/5">
 				<p className="text-sm text-black-3 font-semibold mb-2">
 					Simplify
 				</p>
@@ -39,7 +39,8 @@ export default function DiscoverSection() {
 				<p className="text-lg text-black-3 max-w-3xl mx-auto">
 					Our website provides a step-by-step guide to help you
 					seamlessly navigate the process of buying or selling
-					property.
+					property. From finding the perfect property to closing the
+					deal, we've got you covered.
 				</p>
 			</div>
 

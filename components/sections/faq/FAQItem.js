@@ -32,7 +32,7 @@ export default function FAQItem({ question, answer }) {
 					{answer && (
 						<a
 							href="#"
-							className="text-primary font-semibold mt-2 inline-block"
+							className="text-[#3860E2] font-semibold mt-2 inline-block"
 						>
 							Read More
 						</a>

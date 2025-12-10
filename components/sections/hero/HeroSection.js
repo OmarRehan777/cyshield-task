@@ -2,19 +2,19 @@ import Link from "next/link";
 export default function HeroSection() {
 	return (
 		// Main Section Container
-		<section className="container mx-auto px-4 py-8 md:py-16 max-w-7xl bg-light-grey">
+		<section className="container mx-auto px-12 py-8 md:py-16 max-w-full bg-light-grey">
 			{/* Desktop Layout: Flex, Mobile Layout: flex-col */}
 			<div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center">
 				{/* Left Column: Content (Approx 50% width on large screens) */}
 				{/* Use lg:w-[50%] or lg:w-6/12 for an approximate 50% split */}
-				<div className="w-10/12 lg:w-6/12 order-1 flex items-center flex-col">
+				<div className="w-10/12 lg:w-6/12 order-1 flex items-start flex-col">
 					{/* Headline */}
-					<h1 className="text-5xl md:text-5xl  text-center md:text-left lg:text-left font-extrabold text-black-DEFAULT leading-[4rem] mb-6">
+					<h1 className="text-5xl md:text-5xl  md:text-left lg:text-left font-extrabold text-black-DEFAULT leading-[4rem] mb-6">
 						Discover Your Dream Home Today
 					</h1>
 
 					{/* Description Paragraph */}
-					<p className="text-sm text-black-3 mb-8 max-w-lg font-semibold text-center">
+					<p className="text-base text-black-3 mb-8 max-w-lg font-semibold ">
 						Find the perfect property that suits your lifestyle. Our
 						real estate service offers unique selling propositions
 						that set us apart from the competition. Find your

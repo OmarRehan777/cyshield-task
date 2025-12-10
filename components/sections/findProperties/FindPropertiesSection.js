@@ -13,7 +13,7 @@ export default function FindPropertiesSection() {
 		{
 			id: 2,
 			title: "Modern Apartment",
-			price: "$600,000",
+			price: "$500,000",
 			location: "City Center",
 			imageUrl: "/images/properties/Modern_Apartment.png",
 		},
@@ -83,7 +83,7 @@ export default function FindPropertiesSection() {
 			</div>
 
 			{/* Listings Grid: 4 columns على الـ Desktop */}
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+			<div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
 				{listings.map((listing) => (
 					<FindPropertiesCard
 						className="FindPropertiesCard"
@@ -95,11 +95,10 @@ export default function FindPropertiesSection() {
 					/>
 				))}
 			</div>
-
 			<div className="text-center mt-12">
 				<Link
-					href="#all-listings"
-					className="inline-block px-10 py-3 rounded-lg bg-primary text-black font-semibold transition-colors hover:bg-primary-2"
+					href="#View All"
+					className="px-6 py-3 rounded-xl bg-primary text-Black font-semibold text-base transition-colors hover:bg-primary-2 shadow-md"
 				>
 					View All
 				</Link>

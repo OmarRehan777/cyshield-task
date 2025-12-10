@@ -8,7 +8,7 @@ export default function FAQSection() {
 		{
 			id: 1,
 			question: "What Types Of Properties Are Available On Your Website?",
-			isOpened: true,
+			isOpened: false,
 		},
 		{
 			id: 2,

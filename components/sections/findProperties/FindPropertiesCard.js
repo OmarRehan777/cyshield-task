@@ -25,7 +25,7 @@ export default function FindPropertiesCard({
 
 				<p className="text-grey-DEFAULT text-sm mb-2">{location}</p>
 
-				<p className="text-primary text-xl font-extrabold mb-4">
+				<p className="text-Black text-xl font-bold mb-4">
 					{price}
 				</p>
 
