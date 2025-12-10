@@ -1,17 +1,22 @@
-import MainLayout from "../components/MainLayout";
+import MainLayout from "../components/layouts/MainLayout";
+import HeroSection from "../components/sections/hero/HeroSection";
+import SimplifySection from "../components/sections/simplify/SimplifySection";
+import InnovativeCTASection from "../components/sections/innovativeCTA/InnovativeCTASection";
+import FindPropertiesSection from "../components/sections/findProperties/FindPropertiesSection";
+import TestimonialsSection from "../components/sections/testimonials/TestimonialsSection";
+import FAQSection from "../components/sections/faq/FAQSection";
+import DiscoverSection from "../components/sections/discover/DiscoverSection";
 
 export default function Home() {
 	return (
 		<MainLayout>
-			{/* 4. Placeholder for the main sections (e.g., HeroSection, Listings, Testimonials) 
-          We will replace this with the actual sections later. */}
-			<section className="p-4 text-center text-grey-DEFAULT">
-				{/* We can remove this placeholder once we start building sections */}
-				<h1 className="text-xl font-bold">
-					AyEstate Home Page Content Placeholder
-				</h1>
-				<p>Start building sections here...</p>
-			</section>
+			<HeroSection />
+			<DiscoverSection />
+			<SimplifySection />
+			<InnovativeCTASection />
+			<FindPropertiesSection />
+			<TestimonialsSection />
+			<FAQSection />
 		</MainLayout>
 	);
 }

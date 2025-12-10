@@ -1,5 +1,3 @@
-// components/sections/header/MobileMenu.js
-
 "use client";
 
 import { useState } from "react";
@@ -19,7 +17,7 @@ export default function MobileMenu({ navLinks }) {
 
 	return (
 		<>
-			{/* Hamburger Icon Button (Mobile) - Centered with parent items-center */}
+			{/* Hamburger Icon Button */}
 			<button
 				onClick={toggleMenu}
 				aria-label="Toggle Mobile Menu"
@@ -49,7 +47,7 @@ export default function MobileMenu({ navLinks }) {
 							<Link
 								key={link.name}
 								href={link.href}
-								onClick={toggleMenu} // Close menu on link click (UX Best Practice)
+								onClick={toggleMenu} // Close menu on link click
 								className="text-xl font-medium text-black-DEFAULT hover:text-accent transition-colors"
 							>
 								{link.name}
@@ -59,7 +57,7 @@ export default function MobileMenu({ navLinks }) {
 						{/* Separator for the button */}
 						<div className="pt-4 border-t border-light-grey-3"></div>
 
-						{/* Contact Us Button - Applying the Primary Green Style */}
+						{/* Contact Us Button */}
 						<Link
 							href={contactLink.href}
 							onClick={toggleMenu}
@@ -68,7 +66,7 @@ export default function MobileMenu({ navLinks }) {
 							<span
 								// FINAL COLOR FIX: Using Custom CSS Class for max priority
 								className="px-5 py-3 flex items-center justify-center rounded-full 
-                               force-primary-bg font-semibold text-lg transition-colors
+                               bg-primary font-semibold text-lg transition-colors
                                hover:bg-primary-2"
 							>
 								{contactLink.name}
